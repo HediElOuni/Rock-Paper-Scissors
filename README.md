@@ -1,4 +1,4 @@
-# 'Rock-Paper-Scissors' - Frontend Mentor
+# Rock-Paper-Scissors - Frontend Mentor
 
 ## Table of contents
 
