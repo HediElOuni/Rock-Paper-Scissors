@@ -17,8 +17,8 @@
 
 ### Links
 
-- Solution URL: https://github.com/HediElOuni/''
-- Live Site URL: https://hedielouni.github.io/''/
+- Solution URL: https://github.com/HediElOuni/Rock-Paper-Scissors
+- Live Site URL: https://hedielouni.github.io/Rock-Paper-Scissors/
 
 ## My process
 
