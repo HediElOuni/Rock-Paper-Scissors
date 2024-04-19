@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  
+  <title>Rock, Paper, Scissors | Frontend Mentor</title>
+</head>
+<body>
+  <header>
+    <div class="h-cont">
+      <h1>
+        ROCK<br>PAPER<br>SCISSORS
+      </h1>
+      <div class="score-cont">
+        <h4>SCORE</h4>
+        <div class="score"></div>
+      </div>
+    </div>
+  </header>
+  <main id="main-1">
+    <div class="ppr-n-scsr">
+      <div class="move paper">
+        <svg width="200" height="200">
+          <defs>
+            <linearGradient id="grad1" x1="50%" y1="0%" x2="50%" y2="100%">
+              <stop offset="0%" style="stop-color:hsl(230, 89%, 65%);stop-opacity:1" />
+              <stop offset="100%" style="stop-color:hsl(230, 89%, 62%);stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <ellipse cx="100" cy="100" rx="100" ry="100" fill="#2744BD" />
+          <ellipse cx="100" cy="96" rx="100" ry="96" fill="url(#grad1)" />
+          <ellipse cx="100" cy="100" rx="76" ry="76" fill="#CCC" />
+          <ellipse cx="100" cy="104" rx="76" ry="72" fill="#fff" />
+        </svg>
+        <img src="./images/icon-paper.svg">
+      </div>
+      <div class="move scissors">
+        <svg width="200" height="200">
+          <defs>
+            <linearGradient id="grad2" x1="50%" y1="0%" x2="50%" y2="100%">
+              <stop offset="0%" style="stop-color:hsl(40, 84%, 53%);stop-opacity:1" />
+              <stop offset="100%" style="stop-color:hsl(39, 89%, 49%);stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <ellipse cx="100" cy="100" rx="100" ry="100" fill="#C56D1B" />
+          <ellipse cx="100" cy="96" rx="100" ry="96" fill="url(#grad2)" />
+          <ellipse cx="100" cy="100" rx="76" ry="76" fill="#CCC" />
+          <ellipse cx="100" cy="104" rx="76" ry="72" fill="#fff" />
+        </svg>
+        <img src="./images/icon-scissors.svg">
+      </div>
+    </div>
+    <div class="move rock">
+      <svg width="200" height="200">
+        <defs>
+          <linearGradient id="grad3" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" style="stop-color:hsl(349, 70%, 56%);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:hsl(349, 71%, 52%);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="100" rx="100" ry="100" fill="#991834" />
+        <ellipse cx="100" cy="96" rx="100" ry="96" fill="url(#grad3)" />
+        <ellipse cx="100" cy="100" rx="76" ry="76" fill="#CCC" />
+        <ellipse cx="100" cy="104" rx="76" ry="72" fill="#fff" />
+      </svg>
+      <img src="./images/icon-rock.svg">
+    </div>
+  </main>
+  <main id="main-2">
+    <div class="pick user">
+      <h4>YOU PICKED</h4>
+    </div>
+    <div class="result-cont">
+      <div class="result"></div>
+      <button class="restart">PLAY AGAIN</button>
+    </div>
+    <div class="pick house">
+      <h4>THE HOUSE PICKED</h4>
+      <div class="plc-hldr-crcl"></div>
+    </div>
+  </main>
+  <footer>
+    <div class="rules">RULES</div>
+  </footer>
+  <div class="rules-display">
+    <div class="rd-1">
+      <span>RULES</span>
+      <button class="rd-1-btn">⨉</button>
+    </div>
+    <img src="./images/image-rules.svg">
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
