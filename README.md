@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/HediElOuni/Rock-Paper-Scissors
-- Live Site URL: https://hedielouni.github.io/Rock-Paper-Scissors/
+- Live Site URL: https://rock-paper-scissors-heo.netlify.app
 
 ## My process
 
